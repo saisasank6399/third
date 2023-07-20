@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Html Forms</title>
+	<style>
+		body
+		{
+			background-color: lightgoldenrodyellow;
+		}
+    .first {
+    	background-color: blue;
+    	color: white;
+         padding: 12px 35px;
+         border-radius: 22px;
+         border: 3px solid black;
+         font-size: 15px
+         margin-top:10px;
+
+     }
+     .two{
+    	background-color:white;
+         padding: 12px 35px;
+         border-radius: 22px;
+         border: 3px solid blue;
+         font-size: 15px
+         margin-top:10px;
+
+     }
+     .three{
+    	background-color:white;
+
+         padding: 12px 35px;
+         border-radius: 22px;
+         border-bottom: 3px solid black;
+         border-right: 3px solid black ;
+         font-size: 15px
+         margin-top:10px
+      
+	</style>
+</head>
+<body>
+	<h1> Html forms fill the details</h1>
+	<table border="1px" cellpadding="30">
+		<tr>
+			<td ><b>Name:</b></td>
+			<td><input type="text"></td>
+		</tr>
+		<tr>
+			<td><b>Email:</b></td>
+			<td><input type="Email" ></td>
+		</tr>
+		<tr>
+			<td><b>password</b></td>
+			<td><input type="password"></td>
+		</tr>
+		<tr> 
+			<td><b>Approval required</b> <pre>click on the button or <br>text to check/uncheck.</pre></td>
+			<td><input type="checkbox"> Do you approve ? <br></td>
+
+		</tr>
+		<tr>
+			<td><b>pick Your Favourite</b><pre> click  on the button or text<br>to select.</td>
+			<td><input type="radio" name="r1">choice A <br><br><input type="radio" name="r1">choice B <br><br><input type="radio" name="r1">choice C <br><br></td>
+		</tr>
+		<tr>
+			<div>
+				<td><h4>Popup Menu:</h4></td>
+				<td>
+				<select>
+					<option >select..</option>
+					<option >Benguluru</option>
+					<option>kolkata</option>
+					<option >Andhrapradesh</option>
+					<option >kerala</option>
+					<option>Tamilnadu</option>
+				</select>
+			</td>
+			</tr>	
+			</div>
+			<tr>
+				<td><h4>List</h4><pre> setup options <ul><li type="disc"> number of rows to display</li></ul><ul><li type="disc"> allow Multi-select</li></ul></pre></td>
+				<td>
+					<select multiple>
+						<option>california...CA </option>
+						<option>california...CA </option>
+						<option>california...CA </option>
+						<option>california...CA </option>
+						<option>california...CA </option>
+						<option>california...CA </option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><b> Field Ignored by KM</b></td>
+				<td><input type="number"></td>
+			</tr>
+			<tr>
+				<td><b> Text Area</b></td>
+				<td><textarea rows="5" cols="50"> now its time for all good men to come to the aid of  their country</textarea></td>
+			</tr>
+	</table>
+	<button class="first">save</button>
+	<button class="two">cancel</button>
+	<button class="three" type="reset"> resize</button>
+
+</body>
+</html>
